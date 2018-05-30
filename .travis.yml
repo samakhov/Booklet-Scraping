@@ -9,6 +9,3 @@ addons:
     - libfreetype6:i386
 script:
 - if [[ ${TRAVIS_BRANCH} == "master" ]]; then make deploy; fi
-env:
-  global:
-    secure: JV4Puj7NngNbufWb8m4+ih1eLQhP4UaSlDysYOy5yBvjiFvyWAxpl2WUVij6Js+KZjzoHJYpO/4JGMmSK/GEuaxQzeYYyEFpqPR/XZcv5C7tzezU9q2dsLrh5M7GUineyhZBqLdBjb+or6Nm5kD91u6OKACcbJ5SGJqze7Gbmxy+5cBnI7kO6XPRQy8FZZYlVZt+CIDh6ET6acJzD99mtr20VJW7kIE08/KspfJyHsTczY2kXVMEupmuHEn8KFzQPGlORoYMQTIj5y/44HwHvBh2s0eXYcr3i6WioBMIxXVBI1dxL6rapS+JkCjgBeoaTiEuMGCuMxIlVf48HIh4OV5fhXr6QhwnQ0snDdZAAsGqsjmXGS9TaJGPmVkxqXUxktw6is7MqpMZq8FFejLnF/3sphbmjLXF3Y0jsH4oDCORBgnxgCnjX0uq6VnIa77BNrmMMTtWWlKX2chn9fSIaGhogLa4SX89iv16oHgZJnoJnG52deGQ43jnzF1PoVp+VbKAi44rgQ18AYZYg6qVk9mCayrgHJ+hHendIpflwLXNkiWSfkEC54sgE00N3OX39nD4qFEX53bVDwTWmEQ+9BRJyQm14zbaQpmOXTE3i2di7LBF2Q4onPs+fiLraWAK5PL4UJSxYrAic7jJxUX8T82FMwbJtxM2d8LKeDvXOho=
